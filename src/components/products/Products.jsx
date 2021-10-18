@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axiosInstance from '../../config/axios';
 import { CRMContext } from '../../contex/AuthContext';
 import ProductBox from './ProductBox';
-
+/* eslint-disable */
 const Products = ({history}) => {
 	const [productArr, setProductArr] = useState([]);
 	const [auth] = useContext(CRMContext)

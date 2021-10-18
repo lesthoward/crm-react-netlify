@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Fragment } from 'react';
 // Functional Imports
 import { BrowserRouter, Switch, Route } from 'react-router-dom'

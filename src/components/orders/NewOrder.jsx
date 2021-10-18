@@ -3,6 +3,7 @@ import Swal from 'sweetalert2';
 import axiosInstance from '../../config/axios';
 import FormGetProduct from './FormGetProduct';
 import FormQuantityProduct from './FormQuantityProduct';
+/* eslint-disable */
 const NewOrder = ({ match, history }) => {
 	const { idClient } = match.params;
 	const [client, setClient] = useState({});

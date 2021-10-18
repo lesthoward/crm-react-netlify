@@ -2,7 +2,7 @@ import React, { Fragment, useContext, useEffect, useState } from 'react';
 import axiosInstance from '../../config/axios';
 import { CRMContext } from '../../contex/AuthContext';
 import OrderBox from './OrderBox';
-
+/* eslint-disable */
 const Orders = ({history}) => {
 	const [orderArr, setOrderArr] = useState([]);
 	const [auth] = useContext(CRMContext)

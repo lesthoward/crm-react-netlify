@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import Swal from 'sweetalert2';
 import axiosInstance from '../../config/axios';
 import { CRMContext } from '../../contex/AuthContext';
+/* eslint-disable */
 const Login = ({ history }) => {
 	const [credential, setCredential] = useState({});
 	const [auth, setAuth] = useContext(CRMContext);

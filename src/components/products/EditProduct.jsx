@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import Swal from 'sweetalert2'
 import axiosInstance from '../../config/axios';
-
+/* eslint-disable */
 const EditProduct = ({history, match}) => {
 	const [product, setProduct] = useState({
 		name: '',

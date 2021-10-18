@@ -3,7 +3,7 @@ import axiosInstance from '../../config/axios';
 import { Link } from 'react-router-dom'
 import ClientBox from './ClientBox';
 import { CRMContext } from '../../contex/AuthContext';
-
+/* eslint-disable */
 
 const Clients = ({history}) => {
 
